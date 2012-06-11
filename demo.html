@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/jquery-1.7.1.js"></script>
+        <script src="js/jquery_editable.js"></script>
+        <style>
+            #editable {
+                position: absolute;
+                font-size: 20px;
+                font: 'Times New Roman';
+                background-color: #a8d8eb;
+                left: 50%;
+                top: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <span id='editable'>A Line of Text</span>
+
+        <script>
+            $('#editable').editable({
+                maxWidth: '10%'
+            });
+        </script>
+    </body>
+
+</html>
